@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:job="https://kazirobot.local/ns">
+<channel>
+  <title>Kazi Robot Sample Feed</title>
+  <link>https://example.org/jobs</link>
+  <description>Demo jobs for testing the pipeline. Not real vacancies.</description>
+  <item>
+    <title>[TEST] Software Developer</title>
+    <link>https://example.org/jobs/test-software-developer-dar</link>
+    <author>Kazi Robot Demo Ltd</author>
+    <job:employer>Kazi Robot Demo Ltd</job:employer>
+    <job:location>Dar es Salaam</job:location>
+    <job:deadline>31 December 2099</job:deadline>
+    <pubDate>Mon, 26 Oct 2026 08:00:00 +0300</pubDate>
+    <description><![CDATA[<p>TEST POSTING. We are looking for a software developer to build web applications.</p>
+<p>Qualifications:</p><p>Degree in Computer Science; 2 years experience with Python.</p>
+<p>How to apply:</p><p>Send CV to careers@example.org</p>]]></description>
+  </item>
+  <item>
+    <title>[TEST] Software Developer</title>
+    <link>https://example.org/jobs/test-software-developer-dar-duplicate</link>
+    <job:employer>Kazi Robot Demo Ltd</job:employer>
+    <job:location>Dar es Salaam</job:location>
+    <description>Duplicate of the first item with a different link - should be detected as duplicate.</description>
+  </item>
+  <item>
+    <title>[TEST] Registered Nurse</title>
+    <link>https://example.org/jobs/test-nurse-nairobi</link>
+    <job:employer>Demo Health Clinic</job:employer>
+    <job:location>Nairobi</job:location>
+    <description>TEST POSTING. Nurse for outpatient clinic. Deadline: 1 January 2020</description>
+  </item>
+  <item>
+    <title>[TEST] Accountant</title>
+    <link>https://example.org/jobs/test-accountant-kampala</link>
+    <job:location>Kampala</job:location>
+    <description>TEST POSTING. Employer not stated - should be rejected for missing employer.</description>
+  </item>
+</channel>
+</rss>
